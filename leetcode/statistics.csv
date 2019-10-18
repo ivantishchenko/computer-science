@@ -2,3 +2,5 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 17.10.2019,1,Two sums,HashTable,Easy,,
 17.10.2019,7,Reverse Integer,Math,Easy,,
 17.10.2019,9,Reverse Palindrom,Math,Easy,,
+18.10.2019,26,Remove Duplicates from Sorted Array,Array,Easy,Two pointers,
+18.10.2019,27,Remove Element,Array,Easy,Two pointers,
