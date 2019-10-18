@@ -1,4 +1,4 @@
-﻿Date,Number,Difficulty,Topic,Material,Repetition
-17.10.2019,1,Easy,HashTable,,
-17.10.2019,7,Easy,Math,,
-17.10.2019,9,Easy,Math,,
+Date,Number,Name,Topic,Difficulty,Material,Repetition
+17.10.2019,1,Two sums,HashTable,Easy,,
+17.10.2019,7,Reverse Integer,Math,Easy,,
+17.10.2019,9,Reverse Palindrom,Math,Easy,,
