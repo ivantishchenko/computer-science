@@ -6,8 +6,9 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 18.10.2019,27,Remove Element,Array,Easy,Two pointers,!
 18.10.2019,35,Search Insert Position,Binary Search,Easy,Binary search,!
 19.10.2019,53,Maximum Subarray    ,Dynamic Programming,Easy,"Dynamic Programming, Kadane's algorithm",!
-20.10.2019,66,Plus one,Array,Easy,,
-24.10.2019,13,Roman to Ineger,Math,Easy,,
+20.10.2019,66,Plus one,Array,Easy,Adding decimal numbers,
+24.10.2019,13,Roman to Ineger,Math,Easy,"Traverse from back, add/remove prevChar",
 24.10.2019,69,Sqrt(x),Binary Search,Easy,Binary search boundary,!
 24.10.2019,371,Sum of 2 Integers,Bit manipulation,Easy,"Carry a & b, sum a ^ b, shift carry <<",!
 24.10.2019,206,Reverse Linked List,Linked List,Easy,Traversing LinkedList,
+24.10.2019,20,Valid Parentheses ,Stack,Easy,Stack operations,
