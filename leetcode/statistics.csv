@@ -9,3 +9,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 20.10.2019,66,Plus one,Array,Easy,,
 24.10.2019,13,Roman to Ineger,Math,Easy,,
 24.10.2019,69,Sqrt(x),Binary Search,Easy,Binary search boundary,!
+24.10.2019,371,Sum of 2 Integers,Bit manipulation,Easy,"Carry a & b, sum a ^ b, shift carry <<",!
