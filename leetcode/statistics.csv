@@ -1,5 +1,5 @@
 Date,Number,Name,Topic,Difficulty,Material,Repetition
-17.10.2019,1,Two sums,HashTable,Easy,Lookups in O(1),
+17.10.2019,1,Two sums,HashTable,Easy,HashTable Lookups in O(1),
 17.10.2019,7,Reverse Integer,Math,Easy,Push/pop digits,
 17.10.2019,9,Reverse Palindrom,Math,Easy,Push/pop digits,
 18.10.2019,26,Remove Duplicates from Sorted Array,Array,Easy,Two pointers,!
@@ -7,3 +7,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 18.10.2019,35,Search Insert Position,Array,Easy,Binary search,!
 19.10.2019,53,Maximum Subarray    ,Array,Easy,"Dynamic Programming, Kadane's algorithm",!
 20.10.2019,66,Plus one,Array,Easy,,
+24.10.2019,13,Roman to Ineger,Math,Easy,,
