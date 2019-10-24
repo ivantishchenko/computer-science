@@ -12,3 +12,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 24.10.2019,371,Sum of 2 Integers,Bit manipulation,Easy,"Carry a & b, sum a ^ b, shift carry <<",!
 24.10.2019,206,Reverse Linked List,Linked List,Easy,Traversing LinkedList,
 24.10.2019,20,Valid Parentheses ,Stack,Easy,Stack operations,
+24.10.2019,965,Univalued Binary Tree,Tree,Easy,BFS/DFS/Recursive tree traversal,
