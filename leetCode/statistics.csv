@@ -15,3 +15,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 24.10.2019,965,Univalued Binary Tree,Tree,Easy,BFS/DFS/Recursive tree traversal,
 12.02.2020,88,Merge Sorted Array,Array,Easy,Two pointers,!
 13.02.2020,118,Pascal’s Triangle,Array,Easy,ArrayList,
+13.02.2020,121,Best Time To Buy and Sell Stock,Array,Easy,Basic DP,
