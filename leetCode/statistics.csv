@@ -17,3 +17,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 13.02.2020,118,Pascal’s Triangle,Array,Easy,ArrayList,
 13.02.2020,121,Best Time To Buy and Sell Stock,Array,Easy,Basic DP,
 15.02.2020,171,Excel Sheet Column Number,Math,Easy,Basic math,
+16.02.2020,172,Factorial Trailing Zeroes,Math,Easy,Trailing zeros n! N/5,!
