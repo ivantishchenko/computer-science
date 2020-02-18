@@ -18,4 +18,5 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 13.02.2020,121,Best Time To Buy and Sell Stock,Array,Easy,Basic DP,
 15.02.2020,171,Excel Sheet Column Number,Math,Easy,Basic math,
 16.02.2020,172,Factorial Trailing Zeroes,Math,Easy,Trailing zeros n! N/5,!
-18.02.2020,374,Guess Number Higher or Lower,Binary Search,Easy,Binary search Template 1,
+18.02.2020,374,Guess Number Higher or Lower,Binary Search,Easy,Template 1,
+18.02.2020,278,First Bad Version,Binary Search,Easy,Template 2,

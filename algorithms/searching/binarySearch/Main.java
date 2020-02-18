@@ -62,7 +62,7 @@ class BinarySearch {
     }
 
     // Time O(log n)
-    // Space O(n)
+    // Space O(log n)
     public int binarySearchRecursive(int[] arr, int x, int low, int high) {
         if(low > high) return -1; 
         int mid = (low + high) / 2;
