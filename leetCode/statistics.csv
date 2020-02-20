@@ -22,5 +22,6 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 18.02.2020,278,First Bad Version,Binary Search,Easy,Template 2,
 18.02.2020,34,Find First and Last Position of Element in Sorted Array,Binary Search,Medium,Template 3,
 19.02.2020,704,Binary Search,Binary Search,Easy,Template 1,
-19.02.2020,136,Single Number,Bit manipulation,Easy,XOR a ^ 0 = a; a ^ a = 0;,
+19.02.2020,136,Single Number,Bit manipulation,Easy,XOR a ^ 0 = a, a ^ a = 0
 19.02.2020,169,Majority Element,Bit manipulation,Easy,Iterating over all 32 bits ,!
+20.02.2020,67,Add Binary,String,Easy,StringBuilder,
