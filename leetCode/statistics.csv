@@ -25,6 +25,7 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 19.02.2020,136,Single Number,Bit manipulation,Easy,XOR a ^ 0 = a, a ^ a = 0
 19.02.2020,169,Majority Element,Bit manipulation,Easy,Iterating over all 32 bits ,!
 20.02.2020,67,Add Binary,String,Easy,StringBuilder,
-30.05.2020,344,Reverse String,Recursion ,Easy,,
-31.05.2020,724,Find Pivot Index,Arrays,Easy,,
+30.05.2020,344,Reverse String,Recursion ,Easy,Recursion,
+31.05.2020,724,Find Pivot Index,Arrays,Easy,Array,
 31.05.2020,24,Swap Nodes in Pairs,Recursion ,Medium,Recursion,!
+31.05.2020,700,Search in a Binary Tree,Recursion ,Easy,,
