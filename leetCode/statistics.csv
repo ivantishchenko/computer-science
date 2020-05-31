@@ -27,3 +27,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 20.02.2020,67,Add Binary,String,Easy,StringBuilder,
 30.05.2020,344,Reverse String,Recursion ,Easy,,
 31.05.2020,724,Find Pivot Index,Arrays,Easy,,
+31.05.2020,24,Swap Nodes in Pairs,Recursion ,Medium,Recursion,!
