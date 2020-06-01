@@ -31,3 +31,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 31.05.2020,700,Search in a Binary Tree,Recursion ,Easy,,
 01.06.2020,119,Pascal's Triangle II,Recursion ,Easy,Memoization,
 01.06.2020,509,Fibonacci Number,Recursion ,Easy,Memoization,
+01.06.2020,70,Climbing Stairs,Recursion ,Easy,Memoization,
