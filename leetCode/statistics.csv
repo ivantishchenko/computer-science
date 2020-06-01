@@ -10,7 +10,7 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 24.10.2019,13,Roman to Ineger,Math,Easy,"Traverse from back, add/remove prevChar",
 24.10.2019,69,Sqrt(x),Binary Search,Easy,Binary search boundary,!
 24.10.2019,371,Sum of 2 Integers,Bit manipulation,Easy,"Carry a & b, sum a ^ b, shift carry <<",!
-24.10.2019,206,Reverse Linked List,Linked List,Easy,Traversing LinkedList,
+24.10.2019,206,Reverse Linked List,Linked List,Easy,Recursion,!
 24.10.2019,20,Valid Parentheses ,Stack,Easy,Stack operations,
 24.10.2019,965,Univalued Binary Tree,Tree,Easy,BFS/DFS/Recursive tree traversal,
 12.02.2020,88,Merge Sorted Array,Array,Easy,Two pointers,!
@@ -29,3 +29,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 31.05.2020,724,Find Pivot Index,Arrays,Easy,Array,
 31.05.2020,24,Swap Nodes in Pairs,Recursion ,Medium,Recursion,!
 31.05.2020,700,Search in a Binary Tree,Recursion ,Easy,,
+01.06.2020,119,Pascal's Triangle II,Recursion ,Easy,Memoization,
