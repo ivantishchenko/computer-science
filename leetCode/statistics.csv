@@ -37,3 +37,6 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 04.06.2020,226,Invert Binary Tree,Binary Tree,Easy,,
 05.06.2020,528,Random Pick With Weight,Random,Medium,Binary search,!
 06.06.2020,406,Queue Reconstruction by Height,Greedy,Medium,ArrayList. Reliable Step,!
+12.06.2020,104,Maximum Depth of Binary Tree,Recursion ,Easy,,
+12.06.2020,111,Minimum Depth of Binary Tree,Recursion ,Easy,,!
+12.06.2020,50,Pow,Recursion ,Medium,Pow recursive formula,!
