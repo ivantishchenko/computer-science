@@ -43,3 +43,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 13.06.2020,144,Binary Tree Preorder Traversal,Binary Tree,Medium,Pre-order. Recursion with stacks,
 13.06.2020,94,Binary Tree Inorder Traversal,Binary Tree,Medium,Recursion with stacks,!
 13.06.2020,145,Binary Tree Postorder Traversal,Binary Tree,Hard,2 stacks,!
+14.06.2020,102,Binary Tree Level Order Traversal,Binary Tree,Medium,Level order traversal with queue,!
