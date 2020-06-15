@@ -1,5 +1,5 @@
 Date,Number,Name,Topic,Difficulty,Material,Repetition
-17.10.2019,1,Two sums,HashTable,Easy,HashTable Lookups in O(1),
+17.10.2019,1,Two sums,Hash Table,Easy,HashTable Lookups in O(1),
 17.10.2019,7,Reverse Integer,Math,Easy,Push/pop digits,
 17.10.2019,9,Reverse Palindrom,Math,Easy,Push/pop digits,
 18.10.2019,26,Remove Duplicates from Sorted Array,Array,Easy,Two pointers,!
@@ -44,3 +44,8 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 13.06.2020,94,Binary Tree Inorder Traversal,Binary Tree,Medium,Recursion with stacks,!
 13.06.2020,145,Binary Tree Postorder Traversal,Binary Tree,Hard,2 stacks,!
 14.06.2020,102,Binary Tree Level Order Traversal,Binary Tree,Medium,Level order traversal with queue,!
+15.06.2020,101,Symmetric Tree,Binary Tree,Easy,Symmetric tree definition,!
+15.06.2020,112,Path Sum,Binary Tree,Easy,,!
+15.06.2020,100,Same Tree,Binary Tree,Easy,,
+15.06.2020,705,Design HashSet,Hash Table,Easy,,
+15.06.2020,706,Design HashMap,Hash Table,Easy,,
