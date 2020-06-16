@@ -52,3 +52,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 16.06.2020,217,Contains Duplicate,Hash Table,Easy,,
 16.06.2020,349,Intersection of Two Arrays,Hash Table,Easy,,
 16.06.2020,202,Happy Number,Hash Table,Easy,,
+16.06.2020,205,Isomorphic Strings,Hash Table,Easy,Draw a map of char =>char mapping,!
