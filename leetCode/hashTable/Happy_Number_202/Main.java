@@ -12,7 +12,6 @@ class Solution {
             }
             if(squareSum == 1) return true;
             if(sumSet.contains(squareSum)) return false;
-
             sumSet.add(squareSum);
             n = squareSum;
         }
