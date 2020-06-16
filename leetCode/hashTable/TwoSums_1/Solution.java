@@ -2,7 +2,7 @@ import java.util.Enumeration;
 import java.util.HashMap;
 
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum1(int[] nums, int target) {
         int[] res = new int[2];
         HashMap<Integer, Integer> indexMap = new HashMap<>();
 
@@ -22,16 +22,18 @@ class Solution {
         return null;
     }
 
-    public int[] twoSum_i(int[] nums, int target) {
-        HashMap<Integer, Integer> indexMap = new HashMap<>();
+    public int[] twoSum(int[] nums, int target) {
+        int[] res = new int[2];
+        Map<Integer, Integer> m = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            if(indexMap.containsKey(complement)) {
-                return new int[] {i, indexMap.get(complement)};
+            if(m.containsKey(target - nums[i])) {
+                res[0] = i;
+                res[1] = m.get(target - nums[i]);
+                return res;
             }
-            indexMap.put(nums[i], i);
+            m.put(nums[i], i);
         }
-        return null;
+        return res;
     }
 
 }
