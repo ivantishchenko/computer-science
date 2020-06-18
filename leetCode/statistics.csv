@@ -56,3 +56,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 17.06.2020,599,Minimum Index Sum of Two Lists,Hash Table,Easy,,
 17.06.2020,622,Design Circular Queue,Queue,Medium,,
 18.06.2020,200,Number of Islands,Queue,Medium,"Grid DFS, BFS",!
+18.06.2020,752,Open the lock,Queue,Medium,BFS,
