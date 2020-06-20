@@ -59,3 +59,5 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 18.06.2020,752,Open the lock,Queue,Medium,BFS,
 19.06.2020,279,Perfect Squares,Queue,Medium,,
 20.06.2020,707,Design Linked List,Linked List,Medium,,
+20.06.2020,141,Linked List Cycle,Linked List,Easy,Two pointers,!
+20.06.2020,142,Linked List Cycle II,Linked List,Medium,Slow & fast both start at head ,
