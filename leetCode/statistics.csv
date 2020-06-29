@@ -62,4 +62,5 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 20.06.2020,141,Linked List Cycle,Linked List,Easy,Two pointers,!
 20.06.2020,142,Linked List Cycle II,Linked List,Medium,Slow & fast both start at head ,!
 24.06.2020,160,Intersection of two Linked Lists,Linked List,Easy,Two pointers,!
-27.06.2020,21,Merge Two Sorted Lists,Linked List,Easy,Recursion,
+27.06.2020,21,Merge Two Sorted Lists,Recursion ,Easy,Recursion,
+29.06.2020,779,K-th Symbol in Grammar,Recursion ,Easy,Writing recursive formulas,
