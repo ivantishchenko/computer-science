@@ -65,4 +65,6 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 27.06.2020,21,Merge Two Sorted Lists,Recursion ,Easy,Recursion,
 29.06.2020,779,K-th Symbol in Grammar,Recursion ,Easy,Writing recursive formulas,
 30.06.2020,64,Minimum Path Sum,Dynamic Programming,Medium,Use memo correctly,!
-01.07.2020,441,Arranging Coins,,Easy,Math,
+01.07.2020,441,Arranging Coins,Math,Easy,Math,
+02.07.2020,107,Binary Tree Level Order Traversal II,Binary Tree,Easy,,
+02.07.2020,62,Unique Paths,Dynamic Programming,Medium,,
