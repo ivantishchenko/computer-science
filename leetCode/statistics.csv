@@ -69,3 +69,6 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 02.07.2020,107,Binary Tree Level Order Traversal II,Binary Tree,Easy,,
 02.07.2020,62,Unique Paths,Dynamic Programming,Medium,,
 04.07.2020,733,Flood Fill,Graph,Easy,,
+08.07.2020,695,Max Area of Island,Graph,Medium,,
+08.07.2020,841,Keys and Rooms,Graph,Medium,,
+,1254,Number of Closed Islands,Graph,Medium,,
