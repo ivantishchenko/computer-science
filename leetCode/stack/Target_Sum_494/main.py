@@ -1,3 +1,6 @@
+import collections
+
+
 class Solution:
     def helper(self, nums, S, sum, i, memo):
         if i == len(nums):
@@ -14,8 +17,17 @@ class Solution:
             return memo[(i, sum)]
 
     def findTargetSumWays(self, nums, S):
-        memo = {}
-        return self.helper(nums, S, 0, 0, memo)
+        if not nums or sum(nums) < S: return 0
+        dic = {0: 1}
+        for i in range(len(nums)):
+            temp_dic = collections.defaultdict(int)
+            for k in dic:
+                temp_dic[k + nums[i]] += dic[k]
+                temp_dic[k - nums[i]] += dic[k]
+            dic = temp_dic
+        return dic[S]
+        # memo = {}
+        # return self.helper(nums, S, 0, 0, memo)
 
 a  = Solution()
 res = a.findTargetSumWays([1, 1, 1, 1, 1], 3)
