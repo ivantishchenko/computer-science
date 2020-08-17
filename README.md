@@ -8,6 +8,7 @@ Repository for practicing Algorithms and Data Structures
 - Bit Manipulation
 - Sliding window
 - Math
+- Heaps and Maps
 
 # TODOs
 - Implement DFS
