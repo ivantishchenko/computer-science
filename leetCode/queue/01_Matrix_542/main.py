@@ -4,6 +4,23 @@ from collections import deque
 class Solution:
     moves = [(1, 0), (-1, 0), (0, 1), (0, -1)]
 
+    def bfs_alt(self, matrix, i, j):
+        q = deque([(i, j)])
+        dist = 0
+        while q:
+            q_size = len(q)
+            for _ in range(q_size):
+                x, y = q.popleft()
+                if matrix[x][y] == 0:
+                    return dist
+
+                for m_x, m_y in self.moves:
+                    next_x = x + m_x
+                    next_y = y + m_y
+                    if self.is_inside(next_x, next_y):
+                        q.append((next_x, next_y))
+            dist += 1
+
     def bfs(self, matrix, i, j):
         q = deque([(i, j, 0)])
         while q:
