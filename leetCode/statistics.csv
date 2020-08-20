@@ -82,3 +82,5 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 16.08.2020,494,Target Sum,Stack,Medium,,!
 18.08.2020,542,01 Matrix,Queue,Medium,"(x, y, distance) during BFS",!
 19.08.2020,394,Decode String,Stack,Medium,"",
+20.08.2020,225,Implement Stack using Queues,Stack,Easy,Cycling shift during push to keep top at head,
+20.08.2020,,,,,,
