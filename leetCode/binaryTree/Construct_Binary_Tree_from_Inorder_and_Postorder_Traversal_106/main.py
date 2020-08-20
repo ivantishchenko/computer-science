@@ -10,6 +10,18 @@ class Solution:
         if not inorder:
             return None
 
+        root_val = postorder.pop()
+        root_idx = inorder.index(root_val)
+
+        root = TreeNode(root_val)
+        root.right = self.buildTree(inorder[root_idx + 1:], postorder)
+        root.left = self.buildTree(inorder[:root_idx], postorder)
+        return root
+
+    def buildTree_slow(self, inorder, postorder):
+        if not inorder:
+            return None
+
         # find root
         inorder_map = {}
         for i in range(len(inorder)):
