@@ -85,3 +85,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 20.08.2020,225,Implement Stack using Queues,Stack,Easy,Cycling shift during push to keep top at head,!
 20.08.2020,232,Implement Queue using Stacks,Queue,Easy,,""
 20.08.2020,106,Construct Binary Tree from Inorder and Postorder Traversal,Binary Tree,Medium,root from postorder,!
+21.08.2020,105,Construct Binary Tree from Preorder and Inorder Traversal,Binary Tree,Medium,,
