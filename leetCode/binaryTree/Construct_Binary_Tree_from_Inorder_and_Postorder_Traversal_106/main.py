@@ -34,8 +34,8 @@ class Solution:
                 break
 
         root = TreeNode(post_el)
-        root.left = self.buildTree(inorder[:root_idx], postorder)
-        root.right = self.buildTree(inorder[root_idx + 1:], postorder)
+        root.left = self.buildTree_slow(inorder[:root_idx], postorder)
+        root.right = self.buildTree_slow(inorder[root_idx + 1:], postorder)
         return root
 
 a = Solution()
