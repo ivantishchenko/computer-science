@@ -89,3 +89,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 21.08.2020,116,Populating Next Right Pointers in Each Node I,Binary Tree,Medium,Update i+1 level. if root and root.left and root.right,!
 21.08.2020,117,Populating Next Right Pointers in Each Node II,Binary Tree,Medium,right branch first. Scanner to find leftmost node on the right,
 21.08.2020,236,Lowest Common Ancestor of a Binary Tree,Binary Tree,Medium,,!
+22.08.2020,297,Serialize and Deserialize Binary Tree,Binary Tree,Hard,"",!
