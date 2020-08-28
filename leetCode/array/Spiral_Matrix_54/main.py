@@ -4,10 +4,6 @@ class Solution:
             return []
 
         m, n = len(matrix), len(matrix[0])
-
-        def is_inside(x, y):
-            return 0 <= x < m and 0 <= y < n
-
         res = []
 
         i_beg = 0
