@@ -94,3 +94,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 27.08.2020,498,Diagonal Traverse,Arrays,Medium,Same diag => i + j the same,
 27.08.2020,54,Spiral Matrix,Arrays,Medium,,
 30.08.2020,28,Implement strStr(),String,Easy,,
+31.08.2020,14,Longest Common Prefix,String,Easy,,
