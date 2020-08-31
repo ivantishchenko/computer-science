@@ -93,3 +93,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 26.08.2020,747,Largest Number At Least Twice of Others,Arrays,Easy,,
 27.08.2020,498,Diagonal Traverse,Arrays,Medium,Same diag => i + j the same,
 27.08.2020,54,Spiral Matrix,Arrays,Medium,,
+30.08.2020,28,Implement strStr(),String,Easy,,
