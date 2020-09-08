@@ -2,6 +2,32 @@ class Solution:
     def searchMatrix(self, matrix, target):
         """
 
+        Naive O(n + n)
+
+        :type matrix: List[List[int]]
+        :type target: int
+        :rtype: bool
+        """
+        if not matrix or not matrix[0]:
+            return False
+        if len(matrix) == 1 and len(matrix[0]) == 1:
+            if matrix[0][0] == target:
+                return True
+            else:
+                return False
+
+        x, y = 0, len(matrix[0]) - 1
+
+        if matrix[x][y] < target:
+            return self.searchMatrix(matrix[1:], target)
+        elif matrix[x][y] > target:
+            return self.searchMatrix([row[:-1] for row in matrix], target)
+        else:
+            return True
+
+    def searchMatrix_optimized(self, matrix, target):
+        """
+
         Naive O(n ^ 2)
 
         :type matrix: List[List[int]]
@@ -66,5 +92,5 @@ res = a.searchMatrix([
     [3, 6, 9, 16, 22],
     [10, 13, 14, 17, 24],
     [18, 21, 23, 26, 30]
-], 5)
+], 20)
 print(res)
