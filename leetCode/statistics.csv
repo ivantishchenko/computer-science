@@ -107,3 +107,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 06.09.2020,98,Validate Binary Search Tree,Recursion,Medium,Pass Lower & Upper limits to recursion,!
 07.09.2020,240,Search a 2D Matrix II,Recursion,Medium,,
 09.09.2020,52,N-Queens II,Recursion,Hard,,!
+09.09.2020,51,N-Queens,Recursion,Hard,,
