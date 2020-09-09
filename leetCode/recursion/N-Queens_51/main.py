@@ -12,27 +12,23 @@ class Solution:
     def is_under_attack(self, diag1, diag2, cols, row, col):
         return row + col in diag1 or row - col in diag2 or col in cols
 
-    def build_res(self, cols, n):
-        res = [n * [] for _ in range(n)]
-
-        for col in cols:
-            res[cols[col]] = max(col, 0) * '.' + 'Q' + (n - 1 - col) * '.'
-
-        return res
-
-    def backtrack(self, diag1, diag2, cols, n, row, res):
+    def backtrack(self, diag1, diag2, cols, n, row, res, pos):
         for col in range(n):
             if not self.is_under_attack(diag1, diag2, cols, row, col):
                 self.place_queen(diag1, diag2, cols, row, col)
                 if row == n - 1:
-                    res.append(self.build_res(cols, n))
+                    res.append([j * '.' + 'Q' + (n - 1 - j) * '.' for j in pos + [col]])
                 else:
-                    self.backtrack(diag1, diag2, cols, n, row + 1, res)
+                    self.backtrack(diag1, diag2, cols, n, row + 1, res, pos + [col])
                 self.remove_queen(diag1, diag2, cols, row, col)
-        return res
 
     def solveNQueens(self, n):
         diag_set1 = set()
         diag_set2 = set()
         col_map = {}
-        return self.backtrack(diag_set1, diag_set2, col_map, n, 0, [])
+        res_list = []
+        self.backtrack(diag_set1, diag_set2, col_map, n, 0, res_list, [])
+        return res_list
+
+a = Solution()
+print(a.solveNQueens(4))
