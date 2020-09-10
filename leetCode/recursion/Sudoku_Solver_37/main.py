@@ -20,11 +20,6 @@ class Solution:
             for j in range(3):
                 if board[row_0 + i][col_0 + j] == c:
                     return False
-        # for i in range(-1, 2):
-        #     for j in range(-1, 2):
-        #         if 0 <= y + i < m and 0 <= x + j < n:
-        #             if board[y + i][x + j] == c:
-        #                 return False
 
         return True
 
@@ -43,9 +38,6 @@ class Solution:
         return True
 
     def solveSudoku(self, board):
-        """
-        Do not return anything, modify board in-place instead.
-        """
         self.backtrack(board)
 
 solver = Solution()
