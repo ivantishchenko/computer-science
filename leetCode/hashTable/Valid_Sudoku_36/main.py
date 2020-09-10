@@ -23,11 +23,26 @@ class Solution:
 
         return True
 
-    def isValidSudoku(self, board):
+    def isValidSudoku_bf(self, board):
         m, n = len(board), len(board[0])
         for i in range(m):
             for j in range(n):
                 if board[i][j] != '.':
                     if not self.is_valid(board[i][j], i, j, board):
                         return False
+        return True
+
+    def isValidSudoku(self, board):
+        m, n = len(board), len(board[0])
+
+        lookup = set()
+
+        for i in range(m):
+            for j in range(n):
+                if board[i][j] != '.':
+                    if (i, board[i][j]) in lookup or (board[i][j], j) in lookup or (i // 3, j // 3, board[i][j]) in lookup:
+                        return False
+                    lookup.add((i, board[i][j]))
+                    lookup.add((board[i][j], j))
+                    lookup.add((i // 3, j // 3, board[i][j]))
         return True
