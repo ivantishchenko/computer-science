@@ -3,12 +3,12 @@ class Solution:
         m, n = len(board), len(board[0])
 
         # col
-        for i in range(9):
+        for i in range(m):
             if board[i][col] == c:
                 return False
 
         # row
-        for i in range(9):
+        for i in range(n):
             if board[row][i] == c:
                 return False
 
