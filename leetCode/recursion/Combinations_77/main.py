@@ -1,7 +1,5 @@
 class Solution:
     def helper(self, candidates, k):
-        if k == 0:
-            return []
         if k == 1:
             return [[c] for c in candidates]
         res = []
