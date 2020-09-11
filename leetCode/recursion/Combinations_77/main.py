@@ -11,8 +11,7 @@ class Solution:
 
     def combine(self, n, k):
         candidates = list(range(1, n + 1))
-        res = self.helper(candidates, k)
-        return res
+        return self.helper(candidates, k)
 
 
 solver = Solution()
