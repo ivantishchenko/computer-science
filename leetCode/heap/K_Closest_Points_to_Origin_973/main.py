@@ -1,4 +1,6 @@
 import heapq
+import random
+
 
 class Solution:
     def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
@@ -6,6 +8,9 @@ class Solution:
         n = len(points)
 
         def partition(start, end):
+            pivot_idx = random.randint(start, end)
+            points[end], points[pivot_idx] = points[pivot_idx], points[end]
+
             j = start
             pivot = dist(points[end])
             for i in range(start, end):
