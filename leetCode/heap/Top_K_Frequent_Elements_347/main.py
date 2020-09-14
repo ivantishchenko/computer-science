@@ -1,32 +1,38 @@
 import heapq
-from collections import Counter
 import random
+
+from collections import Counter
 
 
 class Solution:
-    def parition(self, start, end, freq, keys_list):
+    def partition(self, start, end, keys, freq):
         pivot_index = random.randint(start, end)
-        pivot = freq[keys_list[pivot_index]]
-        keys_list[pivot_index], keys_list[end] = keys_list[end], keys_list[pivot_index]
-
+        pivot = freq[keys[pivot_index]]
+        keys[pivot_index], keys[end] = keys[end], keys[pivot_index]
         j = start
         for i in range(start, end):
-            if freq[keys_list[i]] <= pivot:
-                keys_list[j], keys_list[i] = keys_list[i], keys_list[j]
+            if freq[keys[i]] <= pivot:
+                keys[j], keys[i] = keys[i], keys[j]
                 j += 1
-
-        keys_list[j], keys_list[end] = keys_list[end], keys_list[j]
+        keys[end], keys[j] = keys[j], keys[end]
         return j
 
-    def quick_select(self, start, end, freq, keys_list, k):
+    def quick_select(self, start, end, k_idx, keys, freq):
         if start < end:
-            pivot_idx = self.parition(start, end, freq, keys_list)
-            if pivot_idx > k:
-                self.quick_select(pivot_idx + 1, end, freq, keys_list, k)
-            elif pivot_idx < k:
-                self.quick_select(start, pivot_idx - 1, freq, keys_list, k)
+            pivot_index = self.partition(start, end, keys, freq)
+            if k_idx < pivot_index:
+                self.quick_select(start, pivot_index - 1, k_idx, keys, freq)
+            elif k_idx > pivot_index:
+                self.quick_select(pivot_index + 1, end, k_idx, keys, freq)
             else:
                 return
+
+    def topKFrequent(self, nums, k):
+        freq = Counter(nums)
+        keys = list(freq.keys())
+        n = len(keys)
+        self.quick_select(0, n - 1, n - k, keys, freq)
+        return keys[n - k:]
 
     # quick_select
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
