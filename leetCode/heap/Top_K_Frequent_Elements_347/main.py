@@ -5,6 +5,15 @@ from collections import Counter
 
 
 class Solution:
+    # bucket sort solution
+    def topKFrequent(self, nums, k):
+            bucket = [[] for _ in range(len(nums) + 1)]
+            Count = Counter(nums).items()
+            for num, freq in Count: bucket[freq].append(num)
+            flat_list = [item for sublist in bucket for item in sublist]
+            print(flat_list)
+            return flat_list[::-1][:k]
+
     def partition(self, start, end, keys, freq):
         pivot_index = random.randint(start, end)
         pivot = freq[keys[pivot_index]]
