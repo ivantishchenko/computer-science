@@ -1,5 +1,7 @@
+import heapq
+
 class Solution:
-    def findKthLargest(self, nums: List[int], k: int) -> int:
+    def findKthLargest_dc(self, nums: List[int], k: int) -> int:
         n = len(nums)
 
         def partition(start, end):
@@ -25,3 +27,13 @@ class Solution:
 
         quick_select(0, n - 1, n - k)
         return nums[n - k]
+
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        min_heap = []
+
+        for el in nums:
+            heapq.heappush(min_heap, el)
+            if len(min_heap) > k:
+                heapq.heappop(min_heap)
+
+        return heapq.heappop(min_heap)
