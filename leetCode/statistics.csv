@@ -116,4 +116,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 14.09.2020,973,K Closest Points to Origin,Heap,Medium,,
 14.09.2020,215,Kth Largest Element in an Array,Heap,Medium,,
 15.09.2020,23,Merge k Sorted Lists,Heap,Hard,,!
-15.09.2020,295,Find Median from Data Stream,Heap,Hard,,
+15.09.2020,295,Find Median from Data Stream,Heap,Hard,Two Heaps,!
