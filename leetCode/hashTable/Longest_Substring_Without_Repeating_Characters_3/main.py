@@ -12,3 +12,15 @@ class Solution:
                 substr.remove(s[i])
                 i += 1
         return res
+
+    def lengthOfLongestSubstring(self, s):
+        substr = {}
+        n = len(s)
+        res = i = 0
+        for j in range(n):
+            if s[j] in substr:
+                i = max(i, substr[s[j]])
+            substr[s[j]] = j + 1
+            res = max(res, j - i + 1)
+
+        return res
