@@ -123,4 +123,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 17.09.2020,49,Group Anagrams,Hash Table,Medium,,
 17.09.2020,652,Find Duplicate Subtrees,Hash Table,Medium,,
 17.09.2020,771,Jewels and Stones,Hash Table,Easy,,
-18.09.2020,3,Longest Substring Without Repeating Characters,Hash Table,Medium,,
+18.09.2020,3,Longest Substring Without Repeating Characters,Hash Table,Medium,Sliding window,!
