@@ -125,5 +125,5 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 17.09.2020,771,Jewels and Stones,Hash Table,Easy,,
 18.09.2020,3,Longest Substring Without Repeating Characters,Hash Table,Medium,Sliding window,!
 19.09.2020,454,4Sum II,Hash Table,Medium,CtCi page 69,!
-22.09.2020,18,4Sum,Hash Table,Medium,,!
-22.09.2020,15,3Sum,Hash Table,Medium,,!
+22.09.2020,18,4Sum,Hash Table,Medium,Generalize 3Sum,!
+22.09.2020,15,3Sum,Hash Table,Medium,Outer loop over 2Sum,!

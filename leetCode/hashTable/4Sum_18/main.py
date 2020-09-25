@@ -1,23 +1,28 @@
-from collections import defaultdict
-
-
 class Solution:
-    def fourSum(self, nums, target):
-        n = len(nums)
-        res = set()
-        cache = defaultdict(list)
-        for a in range(n):
-            for b in range(n):
-                key = tuple(sorted([nums[a], nums[b]]))
-                sum_key = sum(key)
-                cache[sum_key].append(key)
-
-        for a in range(n):
-            for b in range(a + 1, n):
-                if target - nums[a] - nums[b] in cache:
-                    cache_list = cache[target - nums[a] - nums[b]]
-                    for cd_key in cache_list:
-                        res_tuple = tuple(sorted([nums[a], nums[b], cd_key[0], cd_key[1]]))
-                        if res_tuple not in res:
-                            res.add(res_tuple)
+    def twoSum(self, nums, target):
+        num_set = set()
+        res = []
+        for val in nums:
+            if target - val in num_set:
+                res.append([target - val, val])
+            num_set.add(val)
         return res
+
+    def helper(self, nums, target, k):
+        if k == 2:
+            return self.twoSum(nums, target)
+        res = set()
+        for i in range(len(nums) - k + 1):
+            candidates = self.helper(nums[i + 1:], target - nums[i], k - 1)
+            for c in candidates:
+                res.add(tuple([nums[i]] + list(c)))
+        return res
+
+    def fourSum(self, nums, target):
+        if not nums:
+            return nums
+        nums.sort()
+        return self.helper(nums, target, 4)
+
+a = Solution()
+a.fourSum([0, 0, 0, 0], 0)
