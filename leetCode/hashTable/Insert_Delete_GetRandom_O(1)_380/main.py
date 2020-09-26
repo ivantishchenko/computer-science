@@ -33,8 +33,7 @@ class RandomizedSet:
         """
         Get a random element from the set.
         """
-        data_list = list(self.data)
-        return random.choice(data_list)
+        return random.choice(list(self.data))
 
 # Your RandomizedSet object will be instantiated and called as such:
 # obj = RandomizedSet()
