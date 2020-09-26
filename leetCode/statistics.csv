@@ -127,3 +127,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 19.09.2020,454,4Sum II,Hash Table,Medium,CtCi page 69,!
 22.09.2020,18,4Sum,Hash Table,Medium,Generalize 3Sum,!
 22.09.2020,15,3Sum,Hash Table,Medium,Outer loop over 2Sum,!
+26.09.2020,380,Insert Delete GetRandom O(1),Hash Table,Medium,,
