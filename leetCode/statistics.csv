@@ -130,3 +130,4 @@ Date,Number,Name,Topic,Difficulty,Material,Repetition
 26.09.2020,380,Insert Delete GetRandom O(1),Hash Table,Medium,Use a map + array,""
 29.09.2020,19,Remove Nth Node From End of List,Linked List,Medium,Delete position is L - n + 1. Or advance first_p by n + 1,!
 30.09.2020,203,Remove Linked List Elements,Linked List,Easy,dummy tmp node,!
+01.10.2020,343,Integer Break,Dynamic Programming,Medium,Rod cutting,
