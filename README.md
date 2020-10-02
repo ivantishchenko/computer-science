@@ -11,5 +11,3 @@ Repository for practicing Algorithms and Data Structures
 - Heaps and Maps
 
 # TODOs
-- Implement DFS
-- Implement BFS
