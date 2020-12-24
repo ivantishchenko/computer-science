@@ -1,5 +1,6 @@
-Date,Name,Topic,Difficulty,Material,Repetition
-23.12.2020,Merge Meet Time,Arrays,Easy,Greedy sort,
-23.12.2020,Reverse String,Arrays,Easy,,
-23.12.2020,Reverse Words,Arrays,Easy,Reverse 2x,!
-23.12.2020,Merge Vectors,Arrays,Easy,,
+Date,Name,Topic,Material,Repetition
+23.12.2020,Merge Meet Time,Arrays,Greedy sort,
+23.12.2020,Reverse String,Arrays,,
+23.12.2020,Reverse Words,Arrays,Reverse 2x,!
+23.12.2020,Merge Vectors,Arrays,,
+24.12.2020,Order Checker,Arrays,,
